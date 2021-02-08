@@ -31,7 +31,7 @@ let indizi = [
         "codice": "ipù",
         "anagramma": "più",
         "titolo" : "Una panchina",
-        "indizio": "C'è una panchina, penso che la troverai,ho FIDUCIA in te",
+        "indizio": "C'è una panchina, penso che la troverai, ho FIDUCIA in te",
         "real_order_index": 1
     },
     {
@@ -75,7 +75,7 @@ window.onload = function() {
     let indizio = findInidizio(code)
     if (!indizio) location.reload();
     document.getElementById("title_text").innerText = indizio.titolo
-    document.querySelector("#description_text").innerHTML= indizio.indizio
+    document.querySelector("#description_text").innerText= indizio.indizio
 
 }
 
