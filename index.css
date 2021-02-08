@@ -8,7 +8,7 @@ html {
 
 p{
     color: white;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", serif;
     text-align: center;
 }
 
@@ -21,7 +21,8 @@ div{
 }
 
 #description_div{
-    font-size: 30px;
+    margin: 5%;
+    font-size: 5vw;
 }
 
 
@@ -29,7 +30,7 @@ div{
 #next_button{
     color: white;
     border: 1px solid white;
-    font-size: 60px;
+    font-size: 8vw;
     border-radius: 10px;
     background: none;
     position: absolute;

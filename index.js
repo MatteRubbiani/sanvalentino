@@ -62,6 +62,31 @@ let indizi = [
         "indizio": "Mi sono sbloccato, dove?",
         "real_order_index": 6
     },
+    {
+        "codice": "fine",
+        "anagramma": null,
+        "titolo" : "Tappa finale",
+        "indizio": "La caccia al tesoro è finita. Ora non ti resta che tornare nel posto di partenza (casa mia) e risolvere l'ultimo pezzo della caccia al tesoro",
+        "real_order_index": null
+    },
+    {
+        "codice": "ultima tappa",
+        "anagramma": null,
+        "titolo" : "Ultima tappa",
+        "indizio": "Non ti resta che trovare il messaggio segreto. Tutte le tappe che hai visitato sono posti che " +
+            "hanno segnato la nostra relazione. Tutti i codici che hai inserito (tranne regole, fine e ultima tappa) " +
+            "sembravano lettere casuali. Non sono invece altro che parole con le lettere scambiate. Trova queste parole e " +
+            "assemblale per formare il messaggio segreto. Una volta completato schiaccia su prossimo e inserisci come codice " +
+            "le iniziali delle 8 parole in ordine.",
+        "real_order_index": null
+    },
+    {
+        "codice": "slcpbdmv",
+        "anagramma": null,
+        "titolo" : "Ci sei quasi",
+        "indizio": "I regali sono nascosti attorno a casa. Questa volta non avrai indizi, solo cioccolatini",
+        "real_order_index": 6
+    },
 
 ]
 function findInidizio(code){
@@ -74,9 +99,12 @@ window.onload = function() {
     let code = prompt("inserisci codice")
     let indizio = findInidizio(code)
     if (!indizio) location.reload();
-    document.getElementById("title_text").innerText = indizio.titolo
-    document.querySelector("#description_text").innerText= indizio.indizio
+    document.getElementById("title_text").textContent = indizio.titolo
+    document.querySelector("#description_text").textContent= indizio.indizio
 
+    if (code === "slcpbdmv"){
+        document.getElementById("next_button").hidden = true
+    }
 }
 
 
