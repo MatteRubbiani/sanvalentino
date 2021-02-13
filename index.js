@@ -84,7 +84,7 @@ let indizi = [
         "codice": "slcpbdmv",
         "anagramma": null,
         "titolo" : "Ci sei quasi",
-        "indizio": "I regali sono nascosti attorno a casa. Questa volta non avrai indizi, solo cioccolatini",
+        "indizio": "Il tuo regalo si trova da qualche parte in giardino. Trovalo.",
         "real_order_index": 6
     },
 
