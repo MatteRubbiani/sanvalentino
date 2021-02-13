@@ -17,13 +17,13 @@ let indizi = [
         "codice": "al",
         "anagramma": "la",
         "titolo" : "Il nostro primo bacio",
-        "indizio": "Dove tutto è iniziato",
+        "indizio": "Dove tutto è iniziato, guarda un po' li in zona se noti un foglietto...",
         "real_order_index": 3
     },
     {
         "codice": "saco",
         "anagramma": "cosa",
-        "titolo" : "la nostra prima uscita",
+        "titolo" : "La nostra prima uscita",
         "indizio": "Pioveva... abbiamo cercato un riparo",
         "real_order_index": 7
     },
@@ -51,8 +51,8 @@ let indizi = [
     {
         "codice": "mai",
         "anagramma": "mia",
-        "titolo" : "beh... 31 maggio",
-        "indizio": "Ti ricordi dov'eravamo il 31 sera?",
+        "titolo" : "Beh... 31 maggio",
+        "indizio": "Ti ricordi dov'eravamo il 31 sera?, ecco non è ancora arrivato il momento di entrare in camera mia, ma se guardi davanti alla porta troverai quello che cerchi",
         "real_order_index": 2
     },
     {
