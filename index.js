@@ -66,7 +66,7 @@ let indizi = [
         "codice": "fine",
         "anagramma": null,
         "titolo" : "Tappa finale",
-        "indizio": "La caccia al tesoro è finita. Ora non ti resta che tornare nel posto di partenza (casa mia) e risolvere l'ultimo pezzo della caccia al tesoro",
+        "indizio": "La caccia al tesoro è finita. Ora non ti resta che recarti in camera mia e risolvere l'ultimo pezzo della caccia al tesoro",
         "real_order_index": null
     },
     {
