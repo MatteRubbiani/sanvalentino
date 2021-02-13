@@ -3,7 +3,7 @@ let indizi = [
         "codice": "regole",
         "anagramma": null,
         "titolo" : "Regole",
-        "indizio": "Ciao tata, buon San Valentino. Ti ho organizzato una caccia al tesoro un po' particolare. Ad ogni tappa troverai un foglietto, con un codice. Inseriscilo dopo aver schiacciato -prossimo-, il primo codice te lo fornisco ora, a voce",
+        "indizio": "Ciao tata, buon San Valentino. Ti ho organizzato una caccia al tesoro un po' particolare. Ad ogni tappa troverai un foglietto, con un codice. Inseriscilo dopo aver schiacciato -prossimo-, il primo codice te lo fornisco ora",
         "real_order_index": null
     },
     {
